@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>CustomerRegisterServlet</servlet-name>
+    <servlet-class>web.UI.CustomerRegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ControllerRegister</servlet-name>
+    <servlet-class>web.controller.ControllerRegister</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ViewCustomerServlet</servlet-name>
+    <servlet-class>web.UI.ViewCustomerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ControllerViewCustomer</servlet-name>
+    <servlet-class>web.controller.ControllerViewCustomer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateUIServlet</servlet-name>
+    <servlet-class>web.UI.UpdateUIServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ControllerUpdate</servlet-name>
+    <servlet-class>web.controller.ControllerUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ControllerDelete</servlet-name>
+    <servlet-class>web.controller.ControllerDelete</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckFormAgain</servlet-name>
+    <servlet-class>web.controller.CheckFormAgain</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>CustomerRegisterServlet</servlet-name>
+    <url-pattern>/servlet/CustomerRegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ControllerRegister</servlet-name>
+    <url-pattern>/servlet/ControllerRegister</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewCustomerServlet</servlet-name>
+    <url-pattern>/servlet/ViewCustomerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ControllerViewCustomer</servlet-name>
+    <url-pattern>/servlet/ControllerViewCustomer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateUIServlet</servlet-name>
+    <url-pattern>/servlet/UpdateUIServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ControllerUpdate</servlet-name>
+    <url-pattern>/servlet/ControllerUpdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ControllerDelete</servlet-name>
+    <url-pattern>/servlet/ControllerDelete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckFormAgain</servlet-name>
+    <url-pattern>/servlet/CheckFormAgain</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+   
+</web-app>

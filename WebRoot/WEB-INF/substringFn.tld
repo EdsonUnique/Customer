@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+  version="2.0">
+    
+  <description>JSTL 1.1 functions library</description>
+  <display-name>JSTL functions</display-name>
+  <tlib-version>1.1</tlib-version>
+  <short-name>Edson</short-name>
+  <uri>http://www.Edson.com</uri> 
+  <function>
+    <name>substringFn</name>
+    <function-class>web.el.DefineFn</function-class>
+    <function-signature>java.lang.String getString(java.lang.String,java.lang.Integer)</function-signature>
+  </function>
+
+
+</taglib>
+  

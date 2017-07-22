@@ -1,0 +1,16 @@
+创建数据库和表
+
+create database programe_four;
+use programe_four;
+create table customer(
+	id varchar(40) primary key,
+	name varchar(40)  not null,
+	gender varchar(4) not null ,
+	birthday date ,
+	cellphone varchar(20) not null  ,
+	email varchar(40)  ,
+	preference varchar(200)  ,
+	type varchar(100)  ,
+	description varchar(300)  ,
+	password varchar(60) not null unique  
+)character set utf8 collate utf8_general_ci;
